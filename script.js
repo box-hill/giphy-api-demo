@@ -12,6 +12,7 @@ document.getElementById('search-input').addEventListener('keydown',(e)=>{
     }
 })
 function startSearch(){
+    
     if(alreadyCalled === true) return;
     // remove existing GIF result
     alreadyCalled = true;
@@ -32,6 +33,7 @@ function startSearch(){
         gifResponse.setAttribute('id','GIF-result');
         content.appendChild(gifResponse);    
         alreadyCalled = false;
+        
     })
     .catch((error) => {
         console.log(error);
