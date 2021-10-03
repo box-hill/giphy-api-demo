@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display:flex;
+    height: 100vh;
+    margin:0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#search-input{
+    font-size:22px;
+    margin: 20px;
+    padding: 5px;
+}
+
+#top-bar{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color:beige;
+    padding: 10px
+}
+header{
+    text-align: center;
+    background-color:beige;
+    padding: 10px
+}
+#gif-search{
+    margin: 20px;
+}
